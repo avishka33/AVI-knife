@@ -1,0 +1,34 @@
+windows wifi finde in cmd
+
+Step 1: Open CMD
+
+    Click the Start menu and type CMD, right-click on the Command Prompt option shown as a search result; and click on Run as administrator.  
+
+Step 2: Type WLAN Command
+
+    Type the following command and press Enter to show a list of network names that we connect to. 
+
+netsh wlan show profile 
+
+This command list of all wireless network profiles saved on the computer, including their names and settings as shown below. Select the Wi-Fi you want to know its password. Let's suppose we want to see the password for the Wi-Fi Name "Gravity".
+Gravity
+
+
+Step 3: Enter Show Profile Command
+
+    Now, type the following command and again press enter
+
+netsh wlan show profile name= "Wi-Fi name" key=clear
+
+    This command displays detailed information about that Wi-Fi, including the Profile information, Connectivity settings, Security settings and Cost settings for the specified Wi-Fi network profile.
+
+Wi-Fi-password-via-CMD
+Using CMD
+Step 4: Find Key Content Option
+
+    Scroll through the results until we find an entry named Key Content & our Wi-Fi password will be listed next to it.
+
+Wi-Fi-password-via-CMD---02
+Wi-Fi password via CMD
+
+As now we have our Wi-Fi password, you can connect our device to the network to complete our work. 
